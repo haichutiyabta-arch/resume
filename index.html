@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StudyWorld v3.0 - 10th Class Notes</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- 🔥 Header -->
+  <header class="header">
+    <div class="logo">📘 StudyWorld</div>
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#subjects">Subjects</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <!-- 🚀 Hero Section -->
+  <section class="hero" id="home">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Welcome to <span>StudyWorld</span></h1>
+      <p>Your Digital Study Partner – Learn Smarter, Not Harder.</p>
+      <button class="glow-btn" onclick="showPDF()">View 10th Class Notes</button>
+    </div>
+  </section>
+
+  <!-- 📚 Subjects Section -->
+  <section class="subjects" id="subjects">
+    <h2>Explore Subjects</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>📐 Mathematics</h3>
+        <p>Concepts, Formulas, and Practice Problems with Solutions.</p>
+      </div>
+      <div class="card">
+        <h3>🔬 Science</h3>
+        <p>Physics, Chemistry & Biology with real-world examples.</p>
+      </div>
+      <div class="card">
+        <h3>🗣 English</h3>
+        <p>Grammar rules, Literature notes, and Writing techniques.</p>
+      </div>
+      <div class="card">
+        <h3>🌍 Social Science</h3>
+        <p>History, Geography, Civics, and Economics simplified.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🌈 About Section -->
+  <section class="about" id="about">
+    <h2>About StudyWorld</h2>
+    <p>
+      StudyWorld is a creative learning platform for students. We bring together
+      beautiful design, easy-to-read notes, and advanced interactive tools — 
+      making study time engaging and productive. 🚀
+    </p>
+  </section>
+
+  <!-- 🧾 PDF Overlay -->
+  <div class="pdf-overlay" id="pdfOverlay">
+    <iframe src="notes.pdf" title="10th Class Notes"></iframe>
+    <button class="close-btn" onclick="closePDF()">⬅ Back</button>
+  </div>
+
+  <!-- ⚡ Footer -->
+  <footer>
+    <p>© 2025 <span>StudyWorld v3.0</span> | Designed for Smart Learners 💡</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
